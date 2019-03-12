@@ -1,0 +1,2 @@
+# exercicios
+todos os exercicios
