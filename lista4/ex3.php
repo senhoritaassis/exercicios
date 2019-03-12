@@ -2,14 +2,14 @@
 		<h1>Abra uma conta</h1>
 		<p><strong>É gratuito e sempre será.</strong></p>
 		<form method="" target="_blank" onsubmit="try {return window.confirm(&quot;Este formulário talvez não funcione corretamente devido a certas restrições de segurança.\nQuer continuar?&quot;);} catch (e) {return false;}">
-			<input type="text" name="nome" placeholder="Nome">
-			<input type="text" name="sobrenome" placeholder="Sobrenome">
+			<input type="text" name="nome">
+			<input type="text" name="sobrenome">
 			<br><br>
-                        <input type="text" name="cadastro" placeholder="E-mail ou número do celular">
+			<input type="text" name="cadastro">
 			<br><br>
-                        <input type="text" name="cadastro" placeholder="Insira novamente o e-mail ou número do celular">
+			<input type="text" name="cadastro">
 			<br><br>
-                        <input type="password" nome="senha" placeholder="Nova senha">
+			<input type="password">
 			<br><br>
 			<label><strong>Aniversário</strong></label>
 			<br><br>
@@ -38,10 +38,7 @@
 				<option>dez</option>
 			</select>
 			<select name="ano">
-				<option>ano</option>
-				<?php for($i=2016;$i >= 1905; $i--){?>
-                                <option><?php echo $i ?></option>
-                                <?php } ?>
+				
 			</select>
 			Por que preciso informar minha data de nascimento?
 			<br><br>
