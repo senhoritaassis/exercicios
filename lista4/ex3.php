@@ -15,8 +15,12 @@
 			<br><br>
 			<select name="dia">
 				<option>Dia</option>
-				<?php for($i=)
-                                ?>
+				<?php for($i=1;$i<=31; $i++){?>
+                                <option><?php echo $i ?></option>
+                                <?php } ?>
+                             
+                                        
+                                
 			</select>
 			<select name="mes">
 				<option>Mês</option>
@@ -34,24 +38,7 @@
 				<option>dez</option>
 			</select>
 			<select name="ano">
-				<option>Ano</option>
-				<option>2016</option>
-				<option>2015</option>
-				<option>2014</option>
-				<option>2013</option>
-				<option>2012</option>
-				<option>2011</option>
-				<option>2010</option>
-				<option>2009</option>
-				<option>2008</option>
-				<option>2007</option>
-				<option>2006</option>
-				<option>2005</option>
-				<option>2004</option>
-				<option>2003</option>
-				<option>2002</option>
-				<option>2001</option>
-				<option>2000</option>
+				
 			</select>
 			Por que preciso informar minha data de nascimento?
 			<br><br>
